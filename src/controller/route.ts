@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
-import { GenerateTextResponse, GenerateTextRequest } from '../model/types'; 
-import { generate_text } from '../service/service';
+import { GenerateTextResponse, GenerateTextRequest } from '../module/types'; 
+import { generate_text } from '../provider/service';
 
 const router = express.Router();
 
